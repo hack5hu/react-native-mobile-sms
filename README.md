@@ -18,7 +18,7 @@ Get started quickly by installing the package with npm or yarn:
 
 ```bash
 npm install react-native-mobile-sms
-```
+
 
 or
 
@@ -117,7 +117,7 @@ We welcome contributions! Please open an issue or submit a pull request for any 
 
 ## 🙋 Support
 
-Encounter any issues or have questions? Open an issue on the [GitHub repository](https://github.com/yourusername/react-native-mobile-sms/issues).
+Encounter any issues or have questions? Open an issue on the [GitHub repository](https://github.com/hack5hu/react-native-mobile-sms/issues).
 
 ---
 
