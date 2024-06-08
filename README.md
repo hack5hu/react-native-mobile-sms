@@ -35,7 +35,7 @@ import mobileSms from 'react-native-mobile-sms';
 const App = () => {
   const sendEmergencySms = () => {
     const mobileNumber = '1234567890';
-    const message = `I had an accident, please come to this location: https://maps.google.com/?q=26.821888+75.86541`;
+    const message = `I had an accident, please come to this location: https://maps.google.com/?q=12.821888+12.86541`;
 
     mobileSms.sendDirectSms(mobileNumber, message);
   };
@@ -67,7 +67,7 @@ import mobileSms from 'react-native-mobile-sms';
 const App = () => {
   const sendEmergencySms = () => {
     const mobileNumber = '1234567890';
-    const message = `I had an accident, please come to this location: https://maps.google.com/?q=26.821888+75.86541`;
+    const message = `I had an accident, please come to this location: https://maps.google.com/?q=12.821888+12.86541`;
 
     mobileSms.sendDirectSms(mobileNumber, message);
   };
@@ -95,6 +95,13 @@ Ensure you have the necessary permissions in your Android `AndroidManifest.xml`:
 - This package is currently only supported on Android devices.
 - Ensure the mobile number is correctly formatted and the device has the necessary permissions to send SMS.
 
+## 📝 Future Updates
+
+We have some exciting features planned for future updates:
+
+1. **iOS Support**: We're working on extending support to iOS devices, so you can send SMS across both major platforms.
+2. **SIM Selection**: Adding functionality to select the SIM card for sending SMS, giving users more control over their messaging.
+
 ## 📜 License
 
 This project is licensed under the MIT License.
@@ -105,7 +112,7 @@ We welcome contributions! Please open an issue or submit a pull request for any 
 
 ## 🙋 Support
 
-Encounter any issues or have questions? Open an issue on the [GitHub repository](https://github.com/yourusername/react-native-mobile-sms/issues).
+Encounter any issues or have questions? Open an issue on the [GitHub repository](https://github.com/hack5hu/react-native-mobile-sms/issues).
 
 ---
 
