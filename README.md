@@ -35,7 +35,7 @@ import mobileSms from 'react-native-mobile-sms';
 const App = () => {
   const sendEmergencySms = () => {
     const mobileNumber = '1234567890';
-    const message = `I had an accident, please come to this location: https://maps.google.com/?q=26.821888+75.86541`;
+    const message = `I had an accident, please come to this location: https://maps.google.com/?q=26.821888+26.86541`;
 
     mobileSms.sendDirectSms(mobileNumber, message);
   };
@@ -68,7 +68,7 @@ import mobileSms from 'react-native-mobile-sms';
 const App = () => {
   const sendEmergencySms = () => {
     const mobileNumber = '1234567890';
-    const message = `I had an accident, please come to this location: https://maps.google.com/?q=26.821888+75.86541`;
+    const message = `I had an accident, please come to this location: https://maps.google.com/?q=26.821888+26.86541`;
 
     mobileSms.sendDirectSms(mobileNumber, message);
   };
