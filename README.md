@@ -56,7 +56,7 @@ export default App;
 |------------------|-----------------------------------------|-----------------------------------------------------------------------|
 | `sendDirectSms`  | `mobileNumber: string, message: string` | Sends a direct SMS to the specified mobile number with the given message. |
 
-- **Note**: This function will use the SIM slot 1 for sending the SMS.
+- **Note**: This function will use the defualt SIM slot 1 for sending the SMS.
 
 ## 🛠️ Example
 
@@ -119,4 +119,5 @@ Encounter any issues or have questions? Open an issue on the [GitHub repository]
 ---
 
 Make your React Native app more interactive and responsive with `react-native-mobile-sms`. Install it today and experience seamless SMS integration.
+Created and Crafted by Unknown Persons
 
