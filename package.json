@@ -1,0 +1,46 @@
+{
+  "name": "react-native-mobile-sms",
+  "version": "0.0.1",
+  "main": "index.ts",
+  "files": [
+    "README.md",
+    "android",
+    "index.ts",
+    "ios"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hack5hu/react-native-mobile-sms",
+    "baseUrl": "https://github.com/hack5hu/react-native-mobile-sms"
+  },
+  "keywords": [
+    "react-native",
+    "mobile",
+    "sms",
+    "android",
+    "react-native-sms"
+  ],
+  "author": {
+    "name": "unknown_server"
+  },
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint .",
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.8.1",
+    "react-native": "^0.60.0"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18"
+  }
+}
+
