@@ -1,4 +1,4 @@
-Sure, here's the updated README with checkboxes for the TODO list:
+Sure! Here's the updated README with a table for the API, instructions for npm and yarn, and a note about SIM selection:
 
 ```markdown
 # react-native-mobile-sms
@@ -55,10 +55,11 @@ export default App;
 
 ### 📋 API
 
-#### `sendDirectSms(mobileNumber: string, message: string)`
+| Method                | Parameters                              | Description                                                           |
+|-----------------------|-----------------------------------------|-----------------------------------------------------------------------|
+| `sendDirectSms`       | `mobileNumber: string, message: string` | Sends a direct SMS to the specified mobile number with the given message. |
 
-- **mobileNumber** (string): The recipient's mobile number.
-- **message** (string): The text message to be sent.
+- **Note**: This function will use the SIM slot 1 for sending the SMS.
 
 ## 🛠️ Example
 
@@ -97,6 +98,7 @@ Ensure you have the necessary permissions in your Android `AndroidManifest.xml`:
 
 - This package is currently only supported on Android devices.
 - Ensure the mobile number is correctly formatted and the device has the necessary permissions to send SMS.
+- This package will use the SIM slot 1 for sending the SMS.
 
 ## 📝 Future Updates
 
