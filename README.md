@@ -1,6 +1,3 @@
-Sure! Here's the properly formatted README with a table for the API, instructions for npm and yarn, and a note about SIM selection:
-
-```markdown
 # react-native-mobile-sms
 
 `react-native-mobile-sms` is a React Native package designed to facilitate direct SMS sending on Android devices. This package uses the native `MobileSms` module, allowing you to send messages without user interaction with the default messaging app—perfect for emergency alerts or automated messaging systems.
@@ -122,4 +119,4 @@ Encounter any issues or have questions? Open an issue on the [GitHub repository]
 ---
 
 Make your React Native app more interactive and responsive with `react-native-mobile-sms`. Install it today and experience seamless SMS integration.
-```
+
