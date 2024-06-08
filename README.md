@@ -1,4 +1,4 @@
-Sure! Here's the updated README with a table for the API, instructions for npm and yarn, and a note about SIM selection:
+Sure! Here's the properly formatted README with a table for the API, instructions for npm and yarn, and a note about SIM selection:
 
 ```markdown
 # react-native-mobile-sms
@@ -18,7 +18,7 @@ Get started quickly by installing the package with npm or yarn:
 
 ```bash
 npm install react-native-mobile-sms
-
+```
 
 or
 
@@ -55,9 +55,9 @@ export default App;
 
 ### 📋 API
 
-| Method                | Parameters                              | Description                                                           |
-|-----------------------|-----------------------------------------|-----------------------------------------------------------------------|
-| `sendDirectSms`       | `mobileNumber: string, message: string` | Sends a direct SMS to the specified mobile number with the given message. |
+| Method           | Parameters                              | Description                                                           |
+|------------------|-----------------------------------------|-----------------------------------------------------------------------|
+| `sendDirectSms`  | `mobileNumber: string, message: string` | Sends a direct SMS to the specified mobile number with the given message. |
 
 - **Note**: This function will use the SIM slot 1 for sending the SMS.
 
