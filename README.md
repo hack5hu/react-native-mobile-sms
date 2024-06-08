@@ -1,3 +1,6 @@
+Sure, here's the updated README with checkboxes for the TODO list:
+
+```markdown
 # react-native-mobile-sms
 
 `react-native-mobile-sms` is a React Native package designed to facilitate direct SMS sending on Android devices. This package uses the native `MobileSms` module, allowing you to send messages without user interaction with the default messaging app—perfect for emergency alerts or automated messaging systems.
@@ -35,7 +38,7 @@ import mobileSms from 'react-native-mobile-sms';
 const App = () => {
   const sendEmergencySms = () => {
     const mobileNumber = '1234567890';
-    const message = `I had an accident, please come to this location: https://maps.google.com/?q=12.821888+12.86541`;
+    const message = `I had an accident, please come to this location: https://maps.google.com/?q=26.821888+75.86541`;
 
     mobileSms.sendDirectSms(mobileNumber, message);
   };
@@ -67,7 +70,7 @@ import mobileSms from 'react-native-mobile-sms';
 const App = () => {
   const sendEmergencySms = () => {
     const mobileNumber = '1234567890';
-    const message = `I had an accident, please come to this location: https://maps.google.com/?q=12.821888+12.86541`;
+    const message = `I had an accident, please come to this location: https://maps.google.com/?q=26.821888+75.86541`;
 
     mobileSms.sendDirectSms(mobileNumber, message);
   };
@@ -99,8 +102,8 @@ Ensure you have the necessary permissions in your Android `AndroidManifest.xml`:
 
 We have some exciting features planned for future updates:
 
-1. **iOS Support**: We're working on extending support to iOS devices, so you can send SMS across both major platforms.
-2. **SIM Selection**: Adding functionality to select the SIM card for sending SMS, giving users more control over their messaging.
+- [ ] **iOS Support**: We're working on extending support to iOS devices, so you can send SMS across both major platforms.
+- [ ] **SIM Selection**: Adding functionality to select the SIM card for sending SMS, giving users more control over their messaging.
 
 ## 📜 License
 
@@ -112,8 +115,9 @@ We welcome contributions! Please open an issue or submit a pull request for any 
 
 ## 🙋 Support
 
-Encounter any issues or have questions? Open an issue on the [GitHub repository](https://github.com/hack5hu/react-native-mobile-sms/issues).
+Encounter any issues or have questions? Open an issue on the [GitHub repository](https://github.com/yourusername/react-native-mobile-sms/issues).
 
 ---
 
 Make your React Native app more interactive and responsive with `react-native-mobile-sms`. Install it today and experience seamless SMS integration.
+```
