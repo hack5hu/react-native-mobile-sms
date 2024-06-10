@@ -35,7 +35,7 @@ import mobileSms from 'react-native-mobile-sms';
 const App = () => {
   const sendEmergencySms = () => {
     const mobileNumber = '1234567890';
-    const message = `I had an accident, please come to this location: https://maps.google.com/?q=26.821888+26.86541`;
+    const message = `I had an accident, please come to this location: https://maps.google.com/?q=12.821888+12.86541`;
 
     mobileSms.sendDirectSms(mobileNumber, message);
   };
@@ -52,11 +52,10 @@ export default App;
 
 ### 📋 API
 
-| Method           | Parameters                              | Description                                                           |
-|------------------|-----------------------------------------|-----------------------------------------------------------------------|
-| `sendDirectSms`  | `mobileNumber: string, message: string` | Sends a direct SMS to the specified mobile number with the given message. |
+#### `sendDirectSms(mobileNumber: string, message: string)`
 
-- **Note**: This function will use the defualt SIM slot 1 for sending the SMS.
+- **mobileNumber** (string): The recipient's mobile number.
+- **message** (string): The text message to be sent.
 
 ## 🛠️ Example
 
@@ -68,7 +67,7 @@ import mobileSms from 'react-native-mobile-sms';
 const App = () => {
   const sendEmergencySms = () => {
     const mobileNumber = '1234567890';
-    const message = `I had an accident, please come to this location: https://maps.google.com/?q=26.821888+26.86541`;
+    const message = `I had an accident, please come to this location: https://maps.google.com/?q=12.821888+12.86541`;
 
     mobileSms.sendDirectSms(mobileNumber, message);
   };
@@ -95,14 +94,13 @@ Ensure you have the necessary permissions in your Android `AndroidManifest.xml`:
 
 - This package is currently only supported on Android devices.
 - Ensure the mobile number is correctly formatted and the device has the necessary permissions to send SMS.
-- This package will use the SIM slot 1 for sending the SMS.
 
 ## 📝 Future Updates
 
 We have some exciting features planned for future updates:
 
-- [ ] **iOS Support**: We're working on extending support to iOS devices, so you can send SMS across both major platforms.
-- [ ] **SIM Selection**: Adding functionality to select the SIM card for sending SMS, giving users more control over their messaging.
+1. **iOS Support**: We're working on extending support to iOS devices, so you can send SMS across both major platforms.
+2. **SIM Selection**: Adding functionality to select the SIM card for sending SMS, giving users more control over their messaging.
 
 ## 📜 License
 
@@ -119,5 +117,3 @@ Encounter any issues or have questions? Open an issue on the [GitHub repository]
 ---
 
 Make your React Native app more interactive and responsive with `react-native-mobile-sms`. Install it today and experience seamless SMS integration.
-Created and Crafted by Unknown Persons
-
