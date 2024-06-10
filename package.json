@@ -1,6 +1,6 @@
 {
   "name": "react-native-mobile-sms",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.ts",
   "files": [
     "README.md",
