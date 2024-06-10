@@ -23,6 +23,14 @@ or
 yarn add react-native-mobile-sms
 ```
 
+## ⚙️ Permissions
+
+Ensure you have the necessary permissions in your Android `AndroidManifest.xml`:
+
+```xml
+<uses-permission android:name="android.permission.SEND_SMS"/>
+```
+
 ## 📚 Usage
 
 Import `react-native-mobile-sms` in your React Native component and call the `sendDirectSms` method with the recipient's mobile number and your message.
@@ -37,7 +45,13 @@ const App = () => {
     const mobileNumber = '1234567890';
     const message = `I had an accident, please come to this location: https://maps.google.com/?q=12.821888+12.86541`;
 
-    mobileSms.sendDirectSms(mobileNumber, message);
+    mobileSms.sendDirectSms(mobileNumber, message)
+    .then((response) => {
+      console.log("Check you success Messages :",response);
+    })
+    .catch((error) => {
+      console.log("Check you Error Message :",error);
+    })
   };
 
   return (
@@ -69,7 +83,13 @@ const App = () => {
     const mobileNumber = '1234567890';
     const message = `I had an accident, please come to this location: https://maps.google.com/?q=12.821888+12.86541`;
 
-    mobileSms.sendDirectSms(mobileNumber, message);
+    mobileSms.sendDirectSms(mobileNumber, message)
+    .then((response) => {
+      console.log("Check you success Messages :",response);
+    })
+    .catch((error) => {
+      console.log("Check you Error Message :",error);
+    })
   };
 
   return (
@@ -80,14 +100,6 @@ const App = () => {
 };
 
 export default App;
-```
-
-## ⚙️ Permissions
-
-Ensure you have the necessary permissions in your Android `AndroidManifest.xml`:
-
-```xml
-<uses-permission android:name="android.permission.SEND_SMS"/>
 ```
 
 ## ⚠️ Notes
