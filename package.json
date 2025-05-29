@@ -1,12 +1,13 @@
 {
   "name": "react-native-mobile-sms",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "index.ts",
   "files": [
     "README.md",
     "android",
     "index.ts",
-    "ios"
+    "ios",
+    "src"
   ],
   "repository": {
     "type": "git",
