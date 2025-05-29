@@ -1,6 +1,6 @@
 {
   "name": "react-native-mobile-sms",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.ts",
   "files": [
     "README.md",
@@ -28,7 +28,8 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+     "build": "tsc"
   },
   "peerDependencies": {
     "react": "^16.8.1",
